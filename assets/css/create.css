@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Background gradient */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #556B2F);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+/* Form card */
+form {
+    background: #E6CA4F;
+    width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Main heading */
+body > h2 {
+    display: none;
+}
+
+/* Section headings */
+form h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    background: linear-gradient(90deg, #F5F5DC);
+    color: #333333;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 9px 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 6px rgba(102,126,234,0.4);
+}
+
+/* Submit button */
+input[type="submit"] {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #556B2F, #589e83);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Success message */
+.message {
+    text-align: center;
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
