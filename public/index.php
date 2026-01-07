@@ -42,6 +42,11 @@ $result = mysqli_query($conn, $sql_fetch);
 <head>
     <title>Animal Management System</title>
     <link rel="stylesheet" href="../assets/css/index.css">
+    <div class="logo-container">
+    <div class="farm-icon">🌱</div>
+    <span class="farm-name">Farm Management System</span>
+</div>
+<hr style="border: 1px solid #ddd; width: 100%; margin: 20px 0;">
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         table { border-collapse: collapse; width: 90%; margin-top: 20px; }

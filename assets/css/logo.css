@@ -1,0 +1,26 @@
+logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.farm-icon {
+    font-size: 40px;
+    background: #27ae60; /* Leaf Green */
+    color: white;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.farm-name {
+    display: block;
+    font-size: 55px;
+    font-weight: bold;
+    color: #6d4c41; /* Soil Brown */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
